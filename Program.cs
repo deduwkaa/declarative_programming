@@ -1,15 +1,17 @@
 ﻿using System;
 
-/// <summary>
-/// Основний клас програми.
-/// </summary>
 class Program
 {
-    /// <summary>
-    /// Точка входу в програму.
-    /// </summary>
     static void Main()
     {
-        Console.WriteLine("Hello World!");
+        Hello.Greet();
+    }
+}
+
+class Hello
+{
+    public static void Greet()
+    {
+        Console.WriteLine("Hello from the Hello class!");
     }
 }
