@@ -1,3 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-Console.WriteLine("Hello, World!");
+/// <summary>
+/// Основний клас програми.
+/// </summary>
+class Program
+{
+    /// <summary>
+    /// Точка входу в програму.
+    /// </summary>
+    static void Main()
+    {
+        Console.WriteLine("Hello World!");
+    }
+}
